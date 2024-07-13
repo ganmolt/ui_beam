@@ -7,7 +7,7 @@ fi
 
 sed -i -E '
   /signed +int|unsigned +int/!{
-    s/\b(short|long +long|long) +int +([a-zA-Z_][a-zA-Z0-9_]*( *= *[^;]+)?;)/unsigned \1 \2/g
+    s/\b(short|short +int|long +long|long +long +int|long|long +int|int) +([a-zA-Z_][a-zA-Z0-9_]*( *= *[^;]+)?;)/unsigned \0 \2/g
   }
 ' "$1"
 
