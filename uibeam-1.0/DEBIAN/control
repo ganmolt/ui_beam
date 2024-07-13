@@ -1,0 +1,8 @@
+Package: uibeam
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: sed
+Maintainer: ganmolt <o.qanm.o@gmail.com>
+Description: A simple script to replace 'int' with 'unsigned int' in a file
