@@ -1,6 +1,6 @@
 = 変数をうい(unsigned int)ビームします +
 
-*.c *.cppなどのコードを渡すと，intをunsigned intに変換してくれます． +
+*.c *.cppなどのコードを渡すと，変数のintをunsigned intに変換してくれます． +
 
 .対応している型
 |===
